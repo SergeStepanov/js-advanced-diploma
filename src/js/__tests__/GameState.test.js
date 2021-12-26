@@ -1,7 +1,7 @@
-import GameStateService from './statefortest/GameStateService';
-import GameState from './statefortest/GameState';
+import GameStateService from '../statefortest/GameStateService';
+import GameState from '../statefortest/GameState';
 
-jest.mock('./statefortest/GameState');
+jest.mock('../statefortest/GameState');
 beforeEach(() => {
   jest.resetAllMocks();
 });
